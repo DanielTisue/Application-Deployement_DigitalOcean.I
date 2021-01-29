@@ -1,10 +1,10 @@
 # Application Deployment - Digital Ocean: Part I
 This is a short introduction into the first steps of deploying a NodeJs, Express, EJS, MongoDB application to Digital Ocean. 
-- - - - 
-## Preface
+
+### Preface
 Digital Ocean is a paid platform starting from about 5$ monthly*. This platform gives the deveolper a wide range of customization.
 
-## Intro
+### Intro
 In this tut we will go through Part I of a step-by-step guide on how to properly deploy a node-express app using mongoDB to Digital Ocean.
 
 
