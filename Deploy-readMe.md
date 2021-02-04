@@ -18,9 +18,9 @@ We will cover...
  * Dealing with secret variables
  
  
-# Course and folder outline: 
+## Course and folder outline: 
 
-## Step 1 - Create an ssh key
+### Step 1 - Create an ssh key
 
 
 
