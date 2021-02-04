@@ -1,4 +1,4 @@
-# Application Deployment - Digital Ocean: Part I
+# Application Deployment - Digital Ocean
 This is an introduction into the first steps of deploying a production worthy NodeJs, Express, EJS, MongoDB application to Digital Ocean.
 
 ### Preface
@@ -7,23 +7,28 @@ Digital Ocean is a paid platform starting from about 5$ monthly*. This platform 
 *This was written early 2021. Prices may vary or change.
 
 ### Intro
-In this tut we will go through Part I of a step-by-step guide on how to properly deploy a node-express app using mongoDB to Digital Ocean.
-
+In this tut we will go through a step-by-step guide on how to properly deploy a node-express app using mongoDB to Digital Ocean.
 
 We will cover...
- * &nbsp;Creating a server/droplet. 
- * Using ssh keys to access this server remotely<sup>*</sup>. 
+ * Creating & Using ssh keys to access the server (Digital Ocean Droplet) remotely<sup>*</sup>.
+ * Creating a server/droplet.  
  * Creating and additonal admin user<sup>*</sup>.
+ * What to install to get your server going.
+ * Uploading your project.
+ * Dealing with secret variables
  
  
+# Course and folder outline: 
 
-
-## Step 1 - Create a droplet
+## Step 1 - Create an ssh key
 
 
 
 ## Screenshots
 Include logo/demo screenshot etc.
+
+
+
 
 ## Tech/framework used
 
