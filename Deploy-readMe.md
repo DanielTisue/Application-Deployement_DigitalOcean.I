@@ -16,7 +16,8 @@ We will cover...
  * What to install to get your server going.
  * Uploading your project.
  * Dealing with secret variables
- 
+ <br>
+ <br>
  
 ## Course and folder outline: 
 
