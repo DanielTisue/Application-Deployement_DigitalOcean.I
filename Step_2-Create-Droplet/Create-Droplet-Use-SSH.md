@@ -21,7 +21,28 @@ Open up your terminal on your computer.
 ![terminal location]
 
 ## Step 2
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+In your terminal write this:
+
+``
+ssh-keygen
+``
+
+This should genrate an ssh key and the output should look like this:
+
+``
+Generating public/private rsa key pair.
+Enter file in which to save the key (/your_home/.ssh/id_rsa):
+
+``
+
+If you already have an ssh key installed then your output should look something like this:
+
+``
+/home/your_home/.ssh/id_rsa already exists.
+Overwrite (y/n)?
+``
+
+
 
 ## Screenshots
 Include logo/demo screenshot etc.
