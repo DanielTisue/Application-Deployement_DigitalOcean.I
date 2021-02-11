@@ -9,12 +9,14 @@ Open up your terminal on your computer.
 <p align="left" >
 <img alt="Open finder" width="200" src="ScreenFindTerminal1.png">
 </p>
+
 * go to applications
+
 <p align="left" >
 <img alt="Select Applications" width="600" src="ScreenFindTerminal2.png">
 </p>
-* open the utilities folder
 
+* open the utilities folder
 * click on terminal
 <p align="left" >
 <img alt="Under the uitlity folder open terminal" width="600" src="ScreenFindTerminal3.png">
@@ -31,11 +33,11 @@ Open up your terminal on your computer.
 
 .... and Wa-Lah!
 
-<em><sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keyboard shortcuts
-</em>
+<sub><em><sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keyboard shortcuts
+</em></sub>
 
 Here is an example of what your computer terminal looks like:<br>
-<em><sup>*</sup>this is not to be confused with your terminal in your editor but you could potentially use that instead</em>
+<sub><em><sup>*</sup>this is not to be confused with your terminal in your editor but you could potentially use that instead</em></sub>
 
 <p align="left">
 <img alt="Terminal"  width="600" src="Terminal-Spotlight_shortcut.png">
