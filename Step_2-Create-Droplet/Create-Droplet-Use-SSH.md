@@ -1,27 +1,11 @@
-# Create an ssh key
-In this section we will create an ssh key. 
+# Create a Droplet
+ In this section we will create an account, unless already existing, then create a droplet where our application will live. 
 
 ## Step 1
-Open up your terminal on your computer.
 
--On a mac: 
-* open finder
-* go to applications
-* open the utilities folder
-* click on terminal
-
-...or...
-
-* hit "comand + space" to open spotlight search
-* type in "terminal"
-
-<sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keuyboard shortcuts
 
 ## Screenshots
-<p align="center" style="display: inline block">
-<img alt="Open finder" style="width: 200px;" width="200" src="ScreenFindTerminal1.png">
 
-</p>
 
 ## Step 2
 In your terminal write this:

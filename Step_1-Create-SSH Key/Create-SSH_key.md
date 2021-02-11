@@ -2,10 +2,26 @@
 In this section we will create an ssh key. 
 
 ## Step 1
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+Open up your terminal on your computer.
+
+-On a mac: 
+* open finder
+* go to applications
+* open the utilities folder
+* click on terminal
+
+...or...
+
+* hit "comand + space" to open spotlight search
+* type in "terminal"
+
+<sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keuyboard shortcuts
 
 ## Screenshots
-Include logo/demo screenshot etc.
+<p align="center" style="display: inline block">
+<img alt="Open finder" style="width: 200px;" width="200" src="ScreenFindTerminal1.png">
+
+</p>
 
 ## Step 2
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
