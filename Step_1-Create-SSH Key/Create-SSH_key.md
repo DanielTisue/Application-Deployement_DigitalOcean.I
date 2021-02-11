@@ -6,26 +6,37 @@ Open up your terminal on your computer.
 
 -On a mac: 
 * open finder
+<p align="center" style="display: inline block;">
+<img alt="Open finder" style="width: 200px;" width="200" src="ScreenFindTerminal1.png">
+</p>
 * go to applications
+<p align="center" style="display: inline block;">
+<img alt="Select Applications" style="width: 200px;" width="200" src="ScreenFindTerminal2.png">
+</p>
 * open the utilities folder
+<p align="center" style="display: inline block;">
+<img alt="Under the uitlity folder open terminal" style="width: 200px;" width="200" src="ScreenFindTerminal3.png">
+</p>
 * click on terminal
+<p align="center" style="display: inline block;">
+<img alt="Under the uitlity folder open terminal" style="width: 200px;" width="200" src="ScreenFindTerminal3.png">
+</p>
 
 ...or...
 
 * hit <kbd>command &#8984;</kbd> + <kbd>space bar</kbd> to open spotlight search
 * type in "terminal"
 
+<p align="center" style="display: inline block;">
+<img alt="Spotlight shortcut" style="width: 200px;" width="200" src="Terminal-Spotlight_shortcut.png">
+</p>
+
 .... and Wa-Lah!
 
 <sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keuyboard shortcuts
 
 ## Screenshots
-<p align="center" style="display: inline block; padding: 0px 100px;">
-<img alt="Open finder" style="width: 200px;" width="200" src="ScreenFindTerminal1.png">
-<img alt="Select Applications" style="width: 200px;" width="200" src="ScreenFindTerminal2.png">
-<img alt="Under the uitlity folder open terminal" style="width: 200px;" width="200" src="ScreenFindTerminal3.png">
 
-</p>
 
 ## Step 2
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
@@ -35,9 +46,6 @@ Include logo/demo screenshot etc.
 
 ## Step 3
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Screenshots
-Include logo/demo screenshot etc.
 
 ## Step 4
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
