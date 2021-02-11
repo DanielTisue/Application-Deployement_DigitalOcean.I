@@ -20,7 +20,7 @@ Open up your terminal on your computer.
 <sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keuyboard shortcuts
 
 ## Screenshots
-<p align="center" style="display: inline block; padding: 20px;">
+<p align="center" style="display: inline block; padding: 0px 100px;">
 <img alt="Open finder" style="width: 200px;" width="200" src="ScreenFindTerminal1.png">
 <img alt="Select Applications" style="width: 200px;" width="200" src="ScreenFindTerminal2.png">
 <img alt="Under the uitlity folder open terminal" style="width: 200px;" width="200" src="ScreenFindTerminal3.png">
