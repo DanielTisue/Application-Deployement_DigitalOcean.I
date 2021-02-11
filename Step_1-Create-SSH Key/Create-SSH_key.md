@@ -14,9 +14,7 @@ Open up your terminal on your computer.
 <img alt="Select Applications" style="width: 600px;" width="600" src="ScreenFindTerminal2.png">
 </p>
 * open the utilities folder
-<p align="left" style="display: inline block;">
-<img alt="Under the uitlity folder open terminal" style="width: 600px;" width="600" src="ScreenFindTerminal3.png">
-</p>
+
 * click on terminal
 <p align="left" style="display: inline block;">
 <img alt="Under the uitlity folder open terminal" style="width: 600px;" width="600" src="ScreenFindTerminal3.png">
@@ -33,11 +31,11 @@ Open up your terminal on your computer.
 
 .... and Wa-Lah!
 
-<sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keuyboard shortcuts
+<p style="font-size: 10px;"><sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keyboard shortcuts
+</p>
 
-
-Here is an example of what your computer terminal looks like:
-<em>this is not to be confused with your terminal in your editor but you could potentially use that instead</em>
+Here is an example of what your computer terminal looks like:<br>
+<em style="font-size: 10px;">this is not to be confused with your terminal in your editor but you could potentially use that instead</em>
 
 <p align="left" style="display: inline block;">
 <img alt="Terminal" style="width: 600px;" width="600" src="Terminal-Spotlight_shortcut.png">
