@@ -23,8 +23,13 @@ This tutorial is specifically for individuals using a Mac computer looking to ge
  
 ## Course and folder outline: 
 
-### Step 1 - Create an ssh key
+* ### Step 1 - Create an ssh key 
 
+* ### Step 2 - Creating a Droplet & Adding ssh key usage
+
+* ### Step 3 - Setting up our Digital Ocean Server
+
+* ### Step 4 - Launching our application
 
 
 ## Screenshots
