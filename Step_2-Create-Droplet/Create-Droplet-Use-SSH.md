@@ -18,7 +18,10 @@ Open up your terminal on your computer.
 <sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keuyboard shortcuts
 
 ## Screenshots
-![terminal location]
+<p align="center" style="display: inline block">
+<img alt="Open finder" style="width: 200px;" width="200" src="ScreenFindTerminal1.png">
+
+</p>
 
 ## Step 2
 In your terminal write this:
