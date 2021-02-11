@@ -22,6 +22,8 @@ Open up your terminal on your computer.
 ## Screenshots
 <p align="center" style="display: inline block">
 <img alt="Open finder" style="width: 200px;" width="200" src="ScreenFindTerminal1.png">
+<img alt="Select Applications" style="width: 200px;" width="200" src="ScreenFindTerminal2.png">
+<img alt="Under the uitlity folder open terminal" style="width: 200px;" width="200" src="ScreenFindTerminal3.png">
 
 </p>
 
