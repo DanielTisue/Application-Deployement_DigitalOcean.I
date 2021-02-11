@@ -18,6 +18,10 @@ We will cover...
  * Dealing with secret variables
  <br>
  <br>
+
+### Specifications
+This tutorial is specifically for individuals using a Mac computer looking to get their application deployed. The application conisist of html + css, EJs, Express, MongoDB, and NodeJs.
+
  
 ## Course and folder outline: 
 
