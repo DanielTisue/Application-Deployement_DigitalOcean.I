@@ -12,8 +12,10 @@ Open up your terminal on your computer.
 
 ...or...
 
-* hit "comand + space" to open spotlight search
+* hit <kbd>command</kbd>+<kbd>space bar</kbd> to open spotlight search
 * type in "terminal"
+
+.... and Wa-Lah!
 
 <sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keuyboard shortcuts
 
