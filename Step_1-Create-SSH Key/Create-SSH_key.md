@@ -12,7 +12,7 @@ Open up your terminal on your computer.
 
 ...or...
 
-* hit <kbd>command</kbd>+<kbd>space bar</kbd> to open spotlight search
+* hit <kbd>command &#8984;</kbd> + <kbd>space bar</kbd> to open spotlight search
 * type in "terminal"
 
 .... and Wa-Lah!
