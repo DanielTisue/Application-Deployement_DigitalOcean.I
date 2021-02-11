@@ -6,18 +6,18 @@ Open up your terminal on your computer.
 
 -On a mac: 
 * open finder
-<p align="left" style="display: inline block;">
-<img alt="Open finder" style="width: 200px;" width="200" src="ScreenFindTerminal1.png">
+<p align="left" >
+<img alt="Open finder" width="200" src="ScreenFindTerminal1.png">
 </p>
 * go to applications
-<p align="left" style="display: inline block;">
-<img alt="Select Applications" style="width: 600px;" width="600" src="ScreenFindTerminal2.png">
+<p align="left" >
+<img alt="Select Applications" width="600" src="ScreenFindTerminal2.png">
 </p>
 * open the utilities folder
 
 * click on terminal
-<p align="left" style="display: inline block;">
-<img alt="Under the uitlity folder open terminal" style="width: 600px;" width="600" src="ScreenFindTerminal3.png">
+<p align="left" >
+<img alt="Under the uitlity folder open terminal" width="600" src="ScreenFindTerminal3.png">
 </p>
 
 ...or...
@@ -25,20 +25,20 @@ Open up your terminal on your computer.
 * hit <kbd>command &#8984;</kbd> + <kbd>space bar</kbd> to open spotlight search
 * type in "terminal"
 
-<p align="left" style="display: inline block;">
-<img alt="Spotlight shortcut" style="width: 600px;" width="600" src="Terminal-Spotlight_shortcut.png">
+<p align="left" >
+<img alt="Spotlight shortcut" width="600" src="Terminal-Spotlight_shortcut.png">
 </p>
 
 .... and Wa-Lah!
 
-<p style="font-size: 10px;"><sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keyboard shortcuts
-</p>
+<em><sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keyboard shortcuts
+</em>
 
 Here is an example of what your computer terminal looks like:<br>
-<em style="font-size: 10px;">this is not to be confused with your terminal in your editor but you could potentially use that instead</em>
+<em><sup>*</sup>this is not to be confused with your terminal in your editor but you could potentially use that instead</em>
 
-<p align="left" style="display: inline block;">
-<img alt="Terminal" style="width: 600px;" width="600" src="Terminal-Spotlight_shortcut.png">
+<p align="left">
+<img alt="Terminal"  width="600" src="Terminal-Spotlight_shortcut.png">
 </p>
 
 ## Step 2
