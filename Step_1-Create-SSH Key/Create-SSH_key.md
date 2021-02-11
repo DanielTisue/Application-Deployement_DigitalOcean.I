@@ -11,15 +11,15 @@ Open up your terminal on your computer.
 </p>
 * go to applications
 <p align="left" style="display: inline block;">
-<img alt="Select Applications" style="width: 200px;" width="200" src="ScreenFindTerminal2.png">
+<img alt="Select Applications" style="width: 600px;" width="600" src="ScreenFindTerminal2.png">
 </p>
 * open the utilities folder
 <p align="left" style="display: inline block;">
-<img alt="Under the uitlity folder open terminal" style="width: 200px;" width="200" src="ScreenFindTerminal3.png">
+<img alt="Under the uitlity folder open terminal" style="width: 600px;" width="600" src="ScreenFindTerminal3.png">
 </p>
 * click on terminal
 <p align="left" style="display: inline block;">
-<img alt="Under the uitlity folder open terminal" style="width: 200px;" width="200" src="ScreenFindTerminal3.png">
+<img alt="Under the uitlity folder open terminal" style="width: 600px;" width="600" src="ScreenFindTerminal3.png">
 </p>
 
 ...or...
@@ -28,15 +28,20 @@ Open up your terminal on your computer.
 * type in "terminal"
 
 <p align="left" style="display: inline block;">
-<img alt="Spotlight shortcut" style="width: 200px;" width="200" src="Terminal-Spotlight_shortcut.png">
+<img alt="Spotlight shortcut" style="width: 600px;" width="600" src="Terminal-Spotlight_shortcut.png">
 </p>
 
 .... and Wa-Lah!
 
 <sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keuyboard shortcuts
 
-## Screenshots
 
+Here is an example of what your computer terminal looks like:
+<em>this is not to be confused with your terminal in your editor but you could potentially use that instead</em>
+
+<p align="left" style="display: inline block;">
+<img alt="Terminal" style="width: 600px;" width="600" src="Terminal-Spotlight_shortcut.png">
+</p>
 
 ## Step 2
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
