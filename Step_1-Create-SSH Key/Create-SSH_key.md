@@ -73,27 +73,18 @@ This will then give you the option to replace the old ssh key with the new one o
 
 <sub><em><sup>*</sup> This happened to me and I hit `y` because it's too difficult to keep track of too many ssh keys. However, you may need or want multiple ssh keys for each project and or service you are entering remotely via the command line</em></sub>
 
+Once your key is created the system will generate a folder labeled /.ssh. This won't be visible in the finder and you will want to use the terminal to `cd` into the folder. Within the folder there will be 2 files created:
+```
+/computer/your_computer/.ssh/id_rsa
+/computer/your_computer/.ssh/id_rsa.pub
+```
+To view your ssh key enter `cd` into the .ssh folder and enter `cat id_rsa.pub` to view your encrypted key. You'll want to copy this temporarily into your clipboard to use later.
+
 #### Below is an example of what this looks like in the terminal
 <p align="center" >
 <img alt="Spotlight shortcut" width="900" src="Terminal_ssh-key_Visual.png">
 </p>
 
-## Step 3
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Step 4
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Screenshots
-Include logo/demo screenshot etc.
-
-
-
-### Why use it?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
-
-### Background
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
-
-#### Anything else that seems useful
+## Next Steps
+[a relative link](Create-Drpolet-Use-SSH.md)
 
