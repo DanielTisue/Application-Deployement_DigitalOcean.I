@@ -43,7 +43,7 @@ Here is an example of what your computer terminal looks like:<br>
 <img alt="Terminal"  width="600" src="Terminal-Spotlight_shortcut.png">
 </p>
 
-## Step 2 - Create the ssh key (aka RSA key pairt)
+## Step 2 - Create the ssh key (aka. RSA key pair)
 Enter in the command line of your terminal
 ```bash
 ssh-keygen
