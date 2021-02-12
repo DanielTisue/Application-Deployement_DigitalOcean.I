@@ -85,6 +85,8 @@ To view your ssh key enter `cd` into the .ssh folder and enter `cat id_rsa.pub` 
 <img alt="Spotlight shortcut" width="900" src="Terminal_ssh-key_Visual.png">
 </p>
 
-## Next Steps
-[a relative link](Create-Drpolet-Use-SSH.md)
+## [To the next step](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md)
+
+<!-- <a href="https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md"> ## To the next step</a> -->
+
 
