@@ -73,8 +73,10 @@ This will then give you the option to replace the old ssh key with the new one o
 
 <sub><em><sup>*</sup> This happened to me and I hit `y` because it's too difficult to keep track of too many ssh keys. However, you may need or want multiple ssh keys for each project and or service you are entering remotely via the command line</em></sub>
 
-## Screenshots
-Include logo/demo screenshot etc.
+#### Below is an example of what this looks like in the terminal
+<p align="center" >
+<img alt="Spotlight shortcut" width="900" src="Terminal_ssh-key_Visual.png">
+</p>
 
 ## Step 3
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
