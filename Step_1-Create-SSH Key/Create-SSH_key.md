@@ -55,6 +55,7 @@ The above command will create what's known as RSA key pair represented in 2048-b
 
 ```
 Expected Output
+---------------
 Generating public/private rsa key pair.
 Enter file in which to save the key (/your_computer/.ssh/id_rsa):
 ```
@@ -65,6 +66,7 @@ If you already have and ssh key that's been previously generated and you attempt
 
 ```
 Expected Output
+---------------
 Generating public/private rsa key pair.
 /computer/your_computer/.ssh/id_rsa already exists.
 Overwrite (y/n)?
@@ -85,8 +87,7 @@ To view your ssh key enter `cd` into the .ssh folder and enter `cat id_rsa.pub` 
 <img alt="Spotlight shortcut" width="900" src="Terminal_ssh-key_Visual.png">
 </p>
 
-## [To the next step](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md)
+## [...To the next step...](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md)
 
-<!-- <a href="https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md"> ## To the next step</a> -->
 
 
