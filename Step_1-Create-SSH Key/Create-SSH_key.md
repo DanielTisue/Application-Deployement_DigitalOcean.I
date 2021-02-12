@@ -43,8 +43,35 @@ Here is an example of what your computer terminal looks like:<br>
 <img alt="Terminal"  width="600" src="Terminal-Spotlight_shortcut.png">
 </p>
 
-## Step 2
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+## Step 2 - Create the ssh key (aka RSA key pairt)
+Enter in the command line of your terminal
+```bash
+ssh-keygen
+```
+
+The above command will create what's known as RSA key pair represented in 2048-bit encryption. 
+
+<sub><em><sup>*</sup>alternatively, you can enter `ssh-keygen -b 4096` in order to create a 4096-bit encryption for your key.</em></sub>
+
+```
+Expected Output
+Generating public/private rsa key pair.
+Enter file in which to save the key (/your_computer/.ssh/id_rsa):
+```
+
+This will give you the option of where you would like to save your ssh key, or if you hit enter, it will default to creating this folder `/your_computer/.ssh/id_rsa` (as expected in the Output) and store it there.
+
+If you already have and ssh key that's been previously generated and you attempt to create a another (knowingly or unkowingly), then this will be the expected Output:
+
+```
+Expected Output
+Generating public/private rsa key pair.
+/computer/your_computer/.ssh/id_rsa already exists.
+Overwrite (y/n)?
+```
+This will then give you the option to replace the old ssh key with the new one or create another ssh key entirely. 
+
+<sub><em><sup>*</sup> This happened to me and I hit `y` because it's too difficult to keep track of too many ssh keys. However, you may need or want multiple ssh keys for each project and or service you are entering remotely via the command line</em></sub>
 
 ## Screenshots
 Include logo/demo screenshot etc.
