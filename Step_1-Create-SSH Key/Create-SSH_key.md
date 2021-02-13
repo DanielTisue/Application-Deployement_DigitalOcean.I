@@ -54,7 +54,7 @@ The above command will create what's known as RSA key pair represented in 2048-b
 <sub><em><sup>*</sup>alternatively, you can enter</em> `ssh-keygen -b 4096` <em>in order to create a 4096-bit encryption for your key.</em></sub>
 
 Expected Output:
----------------
+&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;
 ```
 Generating public/private rsa key pair.
 Enter file in which to save the key (/your_computer/.ssh/id_rsa):
@@ -65,7 +65,7 @@ This will give you the option of where you would like to save your ssh key, or i
 If you already have and ssh key that's been previously generated and you attempt to create a another (knowingly or unkowingly), then this will be the expected Output:
 
 Expected Output:
----------------
+&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;&ndash;
 ```
 Generating public/private rsa key pair.
 /computer/your_computer/.ssh/id_rsa already exists.
