@@ -51,7 +51,7 @@ ssh-keygen
 
 The above command will create what's known as RSA key pair represented in 2048-bit encryption. 
 
-<sub><em><sup>*</sup>alternatively, you can enter `ssh-keygen -b 4096` in order to create a 4096-bit encryption for your key.</em></sub>
+<sub><em><sup>*</sup>alternatively, you can enter</em> `ssh-keygen -b 4096` <em>in order to create a 4096-bit encryption for your key.</em></sub>
 
 Expected Output:
 ---------------
@@ -73,7 +73,7 @@ Overwrite (y/n)?
 ```
 This will then give you the option to replace the old ssh key with the new one or create another ssh key entirely. 
 
-<sub><em><sup>*</sup> This happened to me and I hit `y` because it's too difficult to keep track of too many ssh keys. However, you may need or want multiple ssh keys for each project and or service you are entering remotely via the command line</em></sub>
+<sub><em><sup>*</sup> This happened to me and I hit</em> `y` <em>because it's too difficult to keep track of too many ssh keys. However, you may need or want multiple ssh keys for each project and or service you are entering remotely via the command line</em></sub>
 
 Once your key is created the system will generate a folder labeled /.ssh. This won't be visible in the finder and you will want to use the terminal to `cd` into the folder. Within the folder there will be 2 files created:
 ```
