@@ -1,66 +1,106 @@
-# Application Deployment - Digital Ocean
-This is an introduction into the first steps of deploying a production worthy NodeJs, Express, EJS, MongoDB application to Digital Ocean.
+# Step 2 - Creating a Droplet
+In this step we will be creating a droplet, adding our project, and installing the necessary packages for our project.
 
-### Preface
-Digital Ocean is a paid platform starting from about 5$ monthly*. This platform gives the developer a wide range of customization options. I've personally searched far and wide to find options that will best suit usage and budget. The conclusion I came to is, currently, there isn't an effective or efficient way to host a site as a professional product without paying something. Specifically, I needed to host this site as a finished product meaning it has to have an <b>SSL certificate</b>, be <b>hosted</b>, and have a <b>custom domain name</b>. This was what I found to be the best option after countless hours of video watching and other research.  Please be aware, however, that there are other methods depending on the type of site as well as other options that best suit you or you're clients needs.
+##  Login into Digital Ocean or Create an account
 
-*This was written early 2021. Prices may vary or change.
+Click here [https://www.digitalocean.com/](https://www.digitalocean.com/) to get to their websit.
 
-### Intro
-In this tut we will go through a step-by-step guide on how to properly deploy a node-express app using mongoDB to Digital Ocean.
+* If you do not have an account then create one.
+* at the top right of the screen click <button>Create &#8964;</button> button.
+* You should see this menu.
 
-We will cover...
- * Creating & Using ssh keys to access the server (Digital Ocean Droplet) remotely<sup>*</sup>.
- * Creating a server/droplet.  
- * Creating and additonal admin user<sup>*</sup>.
- * What to install to get your server going.
- * Uploading your project.
- * Dealing with secret variables
-
-### Specifications
-This tutorial is specifically for individuals using a Mac computer looking to get their application deployed. The application conisist of html + css, EJs, Express, MongoDB, and NodeJs.
-
- 
-## Course and folder outline: 
-
-* ### Step 1 - Create an ssh key 
-
-* ### Step 2 - Creating a Droplet & Adding ssh key usage
-
-* ### Step 3 - Setting up our Digital Ocean Server
-
-* ### Step 4 - Launching our application
-
-
-## Screenshots
-Include logo/demo screenshot etc.
+<p align="left" >
+<img alt="Select Applications" width="600" src="Create_a_Droplet.png">
+</p>
 
 
 
 
-## Tech/framework used
 
-<b>Built with</b>
-- [Electron](https://electron.atom.io)
+* open the utilities folder
+* click on terminal
+<p align="left" >
+<img alt="Under the uitlity folder open terminal" width="600" src="ScreenFindTerminal3.png">
+</p>
 
-## Features
-What makes your project stand out?
+...or...
 
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+* hit <kbd>command &#8984;</kbd> + <kbd>space bar</kbd> to open spotlight search
+* type in "terminal"
 
-## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+<p align="left" >
+<img alt="Spotlight shortcut" width="600" src="Terminal-Spotlight_shortcut.png">
+</p>
 
-## API Reference
+.... and Wa-Lah!
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+<sub><em><sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keyboard shortcuts
+</em></sub>
 
-## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+Here is an example of what your computer terminal looks like:<br>
+<sub><em><sup>*</sup>this is not to be confused with your terminal in your editor but you could potentially use that instead</em></sub>
 
-## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
+<p align="left">
+<img alt="Terminal"  width="600" src="Terminal-Spotlight_shortcut.png">
+</p>
 
-#### Anything else that seems useful
-Test this quick. Is this thing working at all??????
+## Step 2 - Create the ssh key (aka. RSA key pair)
+Enter in the command line of your terminal
+```bash
+ssh-keygen
+```
+
+The above command will create what's known as RSA key pair represented in 2048-bit encryption. 
+
+<sub><em><sup>*</sup>alternatively, you can enter</em> `ssh-keygen -b 4096` <em>in order to create a 4096-bit encryption for your key.</em></sub>
+
+Expected Output:<br>
+&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;
+```
+Generating public/private rsa key pair.
+Enter file in which to save the key (/your_computer/.ssh/id_rsa):
+```
+
+This will give you the option of where you would like to save your ssh key, or if you hit enter, it will default to creating this folder `/your_computer/.ssh/id_rsa` (as expected in the Output) and store it there.
+
+If you already have and ssh key that's been previously generated and you attempt to create a another (knowingly or unkowingly), then this will be the expected Output:
+
+Expected Output:<br>
+&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;&nbsp;&ndash;
+```
+Generating public/private rsa key pair.
+/computer/your_computer/.ssh/id_rsa already exists.
+Overwrite (y/n)?
+```
+This will then give you the option to replace the old ssh key with the new one or create another ssh key entirely. 
+
+<sub><em><sup>*</sup> This happened to me and I hit</em> `y` <em>because it's too difficult to keep track of too many ssh keys. However, you may need or want multiple ssh keys for each project and or service you are entering remotely via the command line</em></sub>
+
+Once your key is created the system will generate a folder labeled /.ssh. This won't be visible in the finder and you will want to use the terminal to `cd` into the folder. Within the folder there will be 2 files created:
+```
+/computer/your_computer/.ssh/id_rsa
+/computer/your_computer/.ssh/id_rsa.pub
+```
+To view your ssh key enter `cd` into the .ssh folder and enter `cat id_rsa.pub` to view your encrypted key. You'll want to copy this temporarily into your clipboard to use later.
+
+#### Below is an example of what this looks like in the terminal
+<p align="center" >
+<img alt="Spotlight shortcut" width="900" src="Terminal_ssh-key_Visual.png">
+</p>
+
+Lastly! ... Finally.. here is what you should expect your key to look like (not exactly of course):
+
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
+GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3
+Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XA
+t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/En
+mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
+NrRFi9wrf+M7Q== guest@mylaptop.local
+```
+
+
+## [...To the next step...](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md)
+
+
+

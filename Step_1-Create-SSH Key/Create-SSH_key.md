@@ -1,8 +1,7 @@
-# Create an ssh key
+# Step 1 - Create an ssh key
 In this section we will create an ssh key. 
 
-## Step 1
-Open up your terminal on your computer.
+##  Open up your terminal on your computer...
 
 -On a mac: 
 * open finder
