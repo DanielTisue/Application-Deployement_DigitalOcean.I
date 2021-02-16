@@ -13,14 +13,10 @@ Click here [https://www.digitalocean.com/](https://www.digitalocean.com/) to get
 <img alt="Select Applications" width="600" src="Create_a_Droplet.png">
 </p>
 
-
-
-
-
-* open the utilities folder
-* click on terminal
+* Once you click this, you will then be brought to a page to set up your Droplet (virtual server).
+* See below: 
 <p align="left" >
-<img alt="Under the uitlity folder open terminal" width="600" src="ScreenFindTerminal3.png">
+<img alt="Creating a droplet overview visual" width="800" src="OverView.png">
 </p>
 
 ...or...
