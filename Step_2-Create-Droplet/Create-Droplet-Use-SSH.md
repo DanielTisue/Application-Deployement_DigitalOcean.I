@@ -10,13 +10,13 @@ Click here [https://www.digitalocean.com/](https://www.digitalocean.com/) to get
 * You should see this menu.
 
 <p align="left" >
-<img alt="Select Applications" width="600" src="Create_a_Droplet.png">
+<img alt="Hit Create and select Droplet" width="600" src="Create_a_Droplet.png">
 </p>
 
 * Once you click this, you will then be brought to a page to set up your Droplet (virtual server).
 * See below: 
 <p align="left" >
-<img alt="Creating a droplet overview visual" width="800" src="OverView.png">
+<img alt="Creating a droplet - overview visual" width="800" src="OverView.png">
 </p>
 
 ...or...
