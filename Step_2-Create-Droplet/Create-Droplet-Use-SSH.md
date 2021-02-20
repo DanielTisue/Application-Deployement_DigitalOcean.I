@@ -19,33 +19,69 @@ Click here [https://www.digitalocean.com/](https://www.digitalocean.com/) to get
 <img alt="Creating a droplet - overview visual" width="800" src="OverView.png">
 </p>
 
-...or...
+* This is a basic application that I don't expect to get loads of traffic for in the beginning. For that reason, I am choosing the shared CPU basic plan at $5.00 a month. 
 
-* hit <kbd>command &#8984;</kbd> + <kbd>space bar</kbd> to open spotlight search
-* type in "terminal"
+<sub><em><sup>*</sup>You can always scale and upgrade to a higher plan later if needed.</em></sub> 
 
 <p align="left" >
-<img alt="Spotlight shortcut" width="600" src="Terminal-Spotlight_shortcut.png">
+IMAGE
 </p>
 
-.... and Wa-Lah!
+* For this project we will choose NYC as our datacenter site. 
 
-<sub><em><sup>*</sup>generally there isn't a shorcut to do this unless it's set up with in your keyboard shortcuts
-</em></sub>
-
-Here is an example of what your computer terminal looks like:<br>
-<sub><em><sup>*</sup>this is not to be confused with your terminal in your editor but you could potentially use that instead</em></sub>
-
-<p align="left">
-<img alt="Terminal"  width="600" src="Terminal-Spotlight_shortcut.png">
+<p align="left" >
+IMAGE
 </p>
 
-## Step 2 - Create the ssh key (aka. RSA key pair)
-Enter in the command line of your terminal
-```bash
-ssh-keygen
+<sub><em><sup>*</sup>Generally you want to choose a datacenter that will be close to the market your site is intended for. However, the needs of your app may also dictate where your datacenter should be located. See here [Regional Availability Matrix](https://www.digitalocean.com/docs/platform/availability-matrix/) for datacenters capability. There isn't much reason to overthink this!</em></sub>  
+
+* Next is our Authentication method. We will be using SSH keys....
+
+##  Adding your SSH key to your droplet
+
+<p align="left" >
+IMAGE
+</p>
+
+* Open your terminal and enter into your `/computer/your_computer/.ssh/id_rsa.pub` file. The important thing is to find where you are in your file system and `cd`  .ssh folder. Then hit `cat id_rsa.pub` to see your ssh key. 
+* Copy the key only. It should look like this:
 ```
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
+GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3
+Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XA
+t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/En
+mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
+NrRFi9wrf+M7Q==
+```
+<sub><em><sup>*</sup> depending on where you are in your file system in the terminal you can also paste this</em> `cat ~/.ssh/id_rsa.pub` <em>into your command line to view your key</em><sub>
 
+* Go back to the digital ocean browser window and hit <button>New SSH key</button>. 
+
+<p align="left" >
+IMAGE
+</p>
+
+* Paste your SSH key into popup modal. See below:
+
+<p align="left" >
+IMAGE
+</p>
+
+
+
+
+
+
+
+
+#-----------------------------------------
+## Step 2 - Create the ssh key (aka. RSA key pair)
+
+* If you do not have an account then create one.
+* at the top right of the screen click <button>Create &#8964;</button> button.
+* You should see this menu.
+
+#-----------------------------------------
 The above command will create what's known as RSA key pair represented in 2048-bit encryption. 
 
 <sub><em><sup>*</sup>alternatively, you can enter</em> `ssh-keygen -b 4096` <em>in order to create a 4096-bit encryption for your key.</em></sub>
