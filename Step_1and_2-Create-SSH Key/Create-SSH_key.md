@@ -98,7 +98,7 @@ NrRFi9wrf+M7Q== guest@mylaptop.local
 ```
 
 
-## [...To the next step...](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md)
+## [...To the next step...](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_3-Create-Droplet/Create-Droplet-Use-SSH.md)
 
 
 
