@@ -1,7 +1,8 @@
 # Step 1 - Create an ssh key
 In this section we will create an ssh key. 
 
-##  Open up your terminal on your computer...
+
+##  I. Open up your terminal on your computer...
 
 -On a mac: 
 * open finder
@@ -42,7 +43,7 @@ Here is an example of what your computer terminal looks like:<br>
 <img alt="Terminal"  width="600" src="Terminal-Spotlight_shortcut.png">
 </p>
 
-## Step 2 - Create the ssh key (aka. RSA key pair)
+## II. Create the ssh key (aka. RSA key pair)
 Enter in the command line of your terminal
 ```bash
 ssh-keygen
@@ -98,7 +99,7 @@ NrRFi9wrf+M7Q== guest@mylaptop.local
 ```
 
 
-## [...To the next step...](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_3-Create-Droplet/Create-Droplet-Use-SSH.md)
+## [...To the next step...](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md)
 
 
 

@@ -1,7 +1,7 @@
 # Step 2 - Creating a Droplet
 In this step we will be creating a droplet, adding our project, and installing the necessary packages for our project.
 
-##  Login into Digital Ocean or Create an account
+##  I. Login into Digital Ocean or Create an account
 
 Click here [https://www.digitalocean.com/](https://www.digitalocean.com/) to get to their websit.
 
@@ -37,7 +37,7 @@ IMAGE
 
 * Next is our Authentication method. We will be using SSH keys....
 
-##  Adding your SSH key to your droplet
+##  II. Adding your SSH key to your droplet
 
 <p align="left" >
 IMAGE
@@ -68,7 +68,7 @@ IMAGE
 </p>
 
 
-
+* Check to see if it worked by opening up your terminal on your computer and `ssh @root your_droplet_IP`.
 
 
 
@@ -132,7 +132,7 @@ NrRFi9wrf+M7Q== guest@mylaptop.local
 ```
 
 
-## [...To the next step...](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_2-Create-Droplet/Create-Droplet-Use-SSH.md)
+## [...To the next step...](https://github.com/DanielTisue/Application-Deployment_DigitalOcean/blob/master/Step_3-Setting-up-our-server/Server-setup.md)
 
 
 
